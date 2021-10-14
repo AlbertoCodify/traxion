@@ -102,6 +102,8 @@ p.robotomed {
 
 
 
+
+
 a {
   font-family: "Roboto-Medium";
   color: #53565A;
@@ -118,12 +120,21 @@ a:hover {
 
 
 /* colours */
+.bgcolor-pgwhite {
+  background-color: #FFFFFF;
+}
+
 .bgcolor-pgreen {
   background-color: #D0DF00;
 }
 .bgcolor-pgreenli {
   background-color:#E3E935;
 }
+
+.bgcolor-pgreenBF {
+  background-color:#BFD74D;
+}
+
 .bgcolor-pgreendar {
   background-color:#B5BD00;
 }
@@ -136,6 +147,11 @@ a:hover {
 .bgcolor-greylight {
   background-color: #97999B;
 }
+
+.bgcolor-grey80 {
+  background-color: #808080;
+}
+
 
 .bgcolor-greylight2 {
   background-color: #F5F5F5;
@@ -896,11 +912,18 @@ font-family: Gotham-Medium;
 /*--------------------------------------------------------------
 #  HOME
 --------------------------------------------------------------*/
+
+#myVideo {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height:auto;
+}
+
+
 #section1 {
-  background-image: url(../img/home/bg-sec1.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: #D0DF00;
   height: 100vh;
   margin-top: 50px;
   max-height: 728px;
@@ -1045,7 +1068,7 @@ padding-top: 6em;
   
   font-size: 20px;
   text-transform: uppercase;
-  line-height: 24px;
+  line-height: 26px;
   font-family: Clan-Book;
   
   margin-bottom: 16px;
@@ -1095,6 +1118,10 @@ padding-top: 6em;
 
 #section3 {
   background-color: #53565A;
+  background-image: url(../img/home/bg-secnoticias.jpg);
+  background-size: cover;
+  background-position:bottom center;
+  background-repeat: no-repeat;
    padding-top: 6em;
    height: 768px;
   
@@ -1300,7 +1327,7 @@ padding-top: 6em;
 }
 
 /*--------------------------------------------------------------
-#  HOME
+#  NOSOTROS
 --------------------------------------------------------------*/
 #secnos1 {
   background-image: url(../img/nosotros/bg-prinnos.png);
@@ -1330,9 +1357,9 @@ padding-top: 6em;
 
 .txtdescrcap {
   text-transform: uppercase;
-  font-family: Clan-Medium;
-  font-size: 16px;
-  width: 60%;
+  font-family: 'Clan-Book';
+    font-size: 16px;
+    width: 65%;
 
 }
 
@@ -1516,7 +1543,7 @@ padding-top: 6em;
 #secnos5 .post-slide .imglogos3{
   display: block;
   width: 100px;
-  margin: 20px 20px 0;
+  margin:20px 20px 27px;
 }
 
 #secnos5 .post-slide .imglogos2{
@@ -1524,6 +1551,13 @@ padding-top: 6em;
   width: 40px;
   margin: 20px 20px 0;
 }
+#secnos5 .post-slide .blakspace{
+  display: block;
+  width: 40px;
+  height: 37px;
+  margin: 20px 20px 0;
+}
+
 
 #secnos5 .post-slide .contpostdes {
    height: 200px;
@@ -1599,8 +1633,370 @@ padding-top: 6em;
 }
 
 
+#secnos7 {
+  
+  height: 768px;
 
 
+}
+
+#secnos7 .contgreylight {
+  padding: 90px 40px 0px 115px;
+  height: 768px;
+}
+
+
+.titles3 {
+  font-size: 16px;
+  text-transform: uppercase;
+  line-height: 27px;
+  margin-bottom: 16px;
+}
+
+#secnos7 .titles3 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+
+#secnos7 .carousel-inner,#secnos7 .carousel,
+.carousel-item {
+  height:100%;
+  
+  width:100%;
+  
+}
+
+
+
+/*------------------------------ vertical bootstrap slider----------------------------*/
+
+.vert .carousel-item-next.carousel-item-left,
+.vert .carousel-item-prev.carousel-item-right {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}
+
+.vert .carousel-item-next,
+.vert .active.carousel-item-right {
+    -webkit-transform: translate3d(0, 100%, 0);
+            transform: translate3d(0, 100% 0);
+}
+
+.vert .carousel-item-prev,
+.vert .active.carousel-item-left {
+-webkit-transform: translate3d(0,-100%, 0);
+        transform: translate3d(0,-100%, 0);
+}
+
+/*------------------------------- vertical carousel indicators ------------------------------*/
+.carousel-indicators{
+  position:absolute;
+  top:0;
+  bottom:0;
+  margin:auto;
+  height:20px;
+  right:10px; left:auto;
+  width:auto;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.carousel-indicators li{
+  display:block; 
+  background: #808080;
+  margin-bottom:5px; 
+  border:1px solid #ffffff; 
+  
+}
+.carousel-indicators li.active{
+  margin-bottom:5px; 
+  background:#D0DF00;
+  
+}
+
+#myCarousel .carousel-inner img {
+
+  width: 75%;
+  display: block;
+  margin: auto;
+
+}
+
+#myCarousel .carousel-inner h2 {
+
+  width: 75%;
+  display: block;
+  margin:30px auto 0;
+
+}
+
+#myCarousel .carousel-inner p {
+
+  width: 75%;
+  display: block;
+  margin:20px auto;
+
+}
+
+
+.btnwhitebg {
+
+  width: 270px;
+  display: inline-block;
+  margin: 20px 0;
+  background-color: #FFFFFF;
+  border: 1px solid #D0DF00;
+  padding: 10px;
+
+}
+
+.btnwhitebg svg {
+  margin-right: 10px;
+
+}
+
+.btnwhitebg:hover {
+
+  background-color: #D0DF00;
+  
+
+}
+
+#secnos8 {
+  background-color: #D0DF00;
+  background-image: url(../img/nosotros/bg-fundac.png);
+  background-position:top center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  height: 768px;
+
+
+}
+
+#secnos8 .col-lg-12 {
+  margin-top: 10%;
+}
+
+#secnos8 img {
+  width: 280px;
+  margin: 40px auto;
+  display: block;
+  
+
+
+}
+
+#secnos8 p {
+  width: 75%;
+  margin:30px auto;
+  
+
+
+}
+
+
+#secnos9 {
+  background-color: #F5F5F5;
+  padding-top: 6em;
+  height: 768px;
+
+
+}
+
+#secnos9 .bgcolor-pgreen p {
+  
+  padding: 35px 30px 30px;
+ 
+
+
+}
+
+.cardteams  {
+ text-align: center;
+ height: 100%;
+}
+
+.cardteams img {
+  width: 80px;
+  display: block;
+  margin: 25px auto 40px; 
+}
+
+.cardteams p {
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+.cardteams a {
+  position: relative;
+    
+    top: 100px;
+}
+
+.cardteams a svg {
+  margin-right: 10px;
+}
+
+.cardteams a:hover {
+  color: #D0DF00;
+}
+
+.divgreensep {
+  background-color: #D0DF00;
+  width: 90px;
+  height: 3px;
+  margin: 30px auto 50px;
+  display: block;
+
+}
+
+
+#secnos10 {
+  background-color: #FFFFFF;
+  padding-top: 6em;
+  padding-bottom: 3em;
+  height: auto;
+
+
+}
+
+
+
+.btngreenbg {
+  text-align: center;
+  width: 230px;
+  display: block;
+  margin: 20px auto;
+  color: #4D532D;
+  background-color: #D0DF00;
+  border: 1px solid #FFFFFF;
+  padding: 10px;
+}
+
+.btngreenbg svg {
+  margin-right: 10px;
+}
+
+
+
+/*--------------------------------------------------------------
+#  NOSOTROS
+--------------------------------------------------------------*/
+#inver1 {
+  background-image: url(../img/inversionistas/bg-iverprinc.jpg);
+  background-position:left center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin-top: 50px;
+  max-height: 672px  ;
+  
+}
+
+.nav2inver {
+  background-color: #D0DF00;
+  background-image: none;
+  height: 52px;
+}
+
+.nav2inver .linksinver {
+  display: block;
+  width: fit-content;
+  font-size: 14px;
+  margin: 0 14px;
+
+}
+
+.nav2inver .navbar-header .navbar-brand {
+
+  opacity: 0;
+
+}
+
+.nav2inver .contnavrig ul{
+
+  display: none;
+
+}
+
+.opacprinlogo {
+  
+  transition: all 0.1s ease-in;
+}
+
+.opaclogo {
+  
+  transition: all 0.1s ease-in;
+}
+
+.uldblock {
+
+  transition: all 0.1s ease-in;
+
+}
+
+.sticky-top1 {
+  transition: all 0.1s ease-in;
+}
+
+/* style for when sitcky is applied */
+.stuck .sticky-top1 {
+  background-color: #D0DF00;
+  
+
+}
+
+.stuck .opaclogo {
+  opacity: 1 !important;
+}
+
+.stuck .opacprinlogo{
+  opacity: 0 !important;
+}
+
+.stuck .uldblock {
+
+  display: flex !important;
+
+}
+
+.sticky-top {
+  transition: all 0.25s ease-in;
+}
+
+/* style for when sitcky is applied */
+.stuck .sticky-top {
+  box-shadow: none;
+  z-index: 901;
+  background:none;
+  
+ 
+
+}
+
+#inver1 .txtf11 {
+  font-size: 11px;
+}
+
+#inver1 .txtf10 {
+  font-size: 10px;
+  text-transform: uppercase;
+  margin-top: 4px;
+}
+
+#inver1 .txtdatb {
+  margin-bottom: 0;
+  font-size: 30px;
+
+}
+
+#inver1 .blefdots {
+  border-left: 1px dotted #FFFFFF;
+}
 
 /*--------------------------------------------------------------
 # MOBILE
