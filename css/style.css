@@ -51,7 +51,7 @@ body {
 h1 {
   font-family: "Clan-Bold", sans-serif;
   font-size: 36px;
-
+  font-weight: unset;
  
 }
 
@@ -60,7 +60,8 @@ h2, h3, h4, h5, h6 {
   font-family: "Clan-Bold", sans-serif;
   font-size: 36px;
   text-transform: uppercase;
-  
+  font-weight: unset;
+  margin-bottom: 0;
 
 }
 
@@ -93,6 +94,13 @@ p span {
 p.robotomed {
   font-family: Roboto-Medium;
 }
+
+
+.txtf14 {
+  font-size: 14px;
+}
+
+
 
 a {
   font-family: "Roboto-Medium";
@@ -127,6 +135,10 @@ a:hover {
 }
 .bgcolor-greylight {
   background-color: #97999B;
+}
+
+.bgcolor-greylight2 {
+  background-color: #F5F5F5;
 }
 
 .txtcolor-pwhite {
@@ -894,7 +906,7 @@ font-family: Gotham-Medium;
   max-height: 728px;
 }
 
-#section1 .container-fluid .row{
+.rowpb {
   padding-top: 10%;
 }
 
@@ -914,8 +926,30 @@ font-family: Gotham-Medium;
   
 } 
 
-#navslides li a .fa-minus{
+#navslides li a.active {
+  font-size: 20px;
+  color: #D0DF00;
+  
+} 
+
+
+#navslides li a .linegreen {
+  width: 14px;
+  height: 2px;
+  display: inline-block;
+  background-color: #FFFFFF;
   margin-right: 10px;
+  margin-bottom: 7px;
+  
+} 
+
+#navslides li a.active .linegreen {
+  width: 50px;
+  height: 2px;
+  display: inline-block;
+  background-color: #D0DF00;
+  margin-right: 10px;
+  margin-bottom: 10px;
   
 } 
 
@@ -927,14 +961,21 @@ font-family: Gotham-Medium;
   
 } 
 
-#section1 .container {
+#navslides li a.active:hover {
+  font-size: 20px;
+  color: #FFFFFF;
+  
+} 
+
+.conspemt {
   margin-top: 5%;
 }
 
 #contdown {
   background-color:rgba(255, 255, 255, 0.2);
     padding:10px 20px;
-  border: 1px solid #FFFFFF;  
+  border: 1px solid #FFFFFF; 
+  width: 440px; 
 }
 
 #contdown .col-lg-6 {
@@ -1006,9 +1047,19 @@ padding-top: 6em;
   text-transform: uppercase;
   line-height: 24px;
   font-family: Clan-Book;
-  height: 72px;
+  
   margin-bottom: 16px;
 }
+
+#section2 .titles1 {
+
+  height: 72px;
+
+}
+
+
+
+
 
 .titles1 span {
   
@@ -1106,7 +1157,7 @@ padding-top: 6em;
   font-size: 14px;
   color: #B5BD00;
   margin: 15px 0 0;
-  font-family: Avenir-Medium;
+  font-family: Clan-Bold;
   
 }
 
@@ -1247,6 +1298,309 @@ padding-top: 6em;
   box-shadow: none;
   
 }
+
+/*--------------------------------------------------------------
+#  HOME
+--------------------------------------------------------------*/
+#secnos1 {
+  background-image: url(../img/nosotros/bg-prinnos.png);
+  background-position:left center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin-top: 50px;
+  max-height: 728px;
+}
+
+.htxtmov {
+
+  font-family: Clan-Medium;
+  font-size: 72px;
+  letter-spacing: 15px;
+  margin-bottom: 0;
+}
+
+.txtsecontit {
+  text-transform: uppercase;
+  font-family: Clan-Book;
+  font-size: 40px;
+  
+
+}
+
+.txtdescrcap {
+  text-transform: uppercase;
+  font-family: Clan-Medium;
+  font-size: 16px;
+  width: 60%;
+
+}
+
+#secnos2 {
+ 
+  margin-top: 60px;
+  height: 390px;
+}
+
+
+.txtsubtitls {
+  text-transform: uppercase;
+  font-family: Clan-Book;
+  font-size: 22px;
+}
+
+.txtcifrs {
+  font-family: Clan-Bold;
+  font-size: 36px;
+  margin-bottom: 0;
+}
+
+.seccborlef {
+  
+  border-left: 1px solid #707070 ;
+}
+
+
+
+#secnos2 .col-lg-3 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+
+#secnos2 img {
+  width: 80px;
+ float: left;
+  height: auto;
+}
+
+#secnos3 {
+  background-color: #F5F5F5;
+  
+  
+   height: auto;
+  padding-top: 6em;
+  
+}
+  
+  
+#secnos3  img {
+  
+    display: block;
+    width: 100%;
+    height: auto;
+   
+   
+}
+
+#secnos3 .contwhits {
+  background-color: #FFFFFF;
+  padding: 15px 20px;
+  height: 180px;
+}
+
+.titles2 {
+  
+  font-size: 20px;
+  text-transform: uppercase;
+  line-height: 24px;
+  font-family: Clan-Bold;
+  margin-bottom: 16px;
+
+}
+
+.extrmt {
+  margin-top: 60px;
+  
+}
+
+#secnos4 {
+  background-image: url(../img/nosotros/bg-secnos4.jpg);
+  background-position:center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 768px;
+
+
+}
+
+#secnos4 p {
+  width: 70%;
+  margin:0px auto 40px;
+  line-height: 28px;
+
+
+}
+
+#secnos5 {
+  background-color: #FFFFFF;
+   padding-top: 6em;
+   height: 728px;
+  
+  
+}
+
+#secnos5 .espmaxw {
+
+ max-height: 100%;
+  
+  
+  
+}
+
+#secnos5 .espmaxw h2 {
+  padding-top: 25%;
+  padding-left: 25%;
+}
+
+#secnos5 .espmaxw .txtsubtitls {
+  padding-left: 25%;
+  margin-top: 0;
+  margin-bottom: 60px;
+}
+
+#secnos5 .espmaxw .txtarrow {
+  font-size: 18px;
+  margin-right: 40px;
+  text-align: right;
+  margin-bottom: 40px;
+}
+
+#secnos5 .espmaxw .txtarrow svg{
+  font-size: 20px;
+  margin-left: 10px;
+  margin-top: 3px;
+}
+
+.contgreylight {
+  height: 100%;
+  background-color: #FAFAFA;
+
+}
+
+#secnos5 #news-slider {
+  
+  padding-bottom: 0px;
+  padding-top: 0px;
+  border-top: 1px solid #FFFFFF;
+  border-bottom: 1px solid #ffffff;
+}
+
+
+
+#secnos5 .post-slide{
+  height: 500px;
+  margin: 0 10px;
+  padding: 0 ;
+  background-color: #ECECEC;
+ 
+}
+#secnos5 .post-slide .post-img{
+  position: relative;
+  
+  margin-bottom: 10px;
+}
+#secnos5 .post-slide .post-img img{
+  display: block;
+  width: 100%;
+  height: 200px;
+}
+
+#secnos5 .post-slide .imglogos{
+  display: block;
+  width: 200px;
+  margin: 20px 20px 0;
+ 
+}
+
+#secnos5 .post-slide .imglogos3{
+  display: block;
+  width: 100px;
+  margin: 20px 20px 0;
+}
+
+#secnos5 .post-slide .imglogos2{
+  display: block;
+  width: 40px;
+  margin: 20px 20px 0;
+}
+
+#secnos5 .post-slide .contpostdes {
+   height: 200px;
+  padding:0 20px;
+
+}
+
+#secnos5 .post-slide .post-bar {
+  padding-left: 0;
+}
+
+#secnos5 .post-slide .post-bar li{
+  display: inline-block;
+  font-size: 12px;
+  color: #97999B;
+  margin-right: 5px;
+}
+
+#secnos5 .post-slide .post-title{
+  font-size: 36px;
+  color: #53565A;
+  margin: 15px 0;
+  font-family: Clan-Bold;
+  
+}
+
+
+#secnos5 .post-slide .post-description{
+  font-size: 12px;
+  color: #53565A;
+  line-height: 24px;
+  padding-bottom: 15px;
+}
+#secnos5 .post-slide .read-more{
+  display: block;
+  font-size: 14px;
+  color: #97999B;
+  width: auto;
+  text-transform: none;
+  
+
+}
+
+#secnos5 .post-slide .read-more svg{
+  margin-right: 5px;
+
+}
+
+
+#secnos5 .post-slide .read-more:hover{
+  text-decoration: none;
+  color: #53565A;
+
+}
+
+
+#secnos6 {
+  background-image: url(../img/nosotros/bg-secnos6.jpg);
+  background-position:center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 768px;
+
+
+}
+
+#secnos6 p {
+  width: 70%;
+  margin:0px auto 40px;
+  line-height: 28px;
+
+
+}
+
+
+
+
 
 /*--------------------------------------------------------------
 # MOBILE
