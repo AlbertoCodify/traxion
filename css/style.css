@@ -1370,7 +1370,7 @@ padding-top: 6em;
 
 .txtdescrcap {
   text-transform: uppercase;
-  font-family: 'Clan-Book';
+  font-family: 'Roboto-Semibold', sans-serif;
     font-size: 16px;
     width: 65%;
 
@@ -1881,13 +1881,14 @@ padding-top: 6em;
 
 .btngreenbg {
   text-align: center;
-  width: 230px;
+  width: 220px;
   display: block;
   margin: 20px auto;
   color: #4D532D;
   background-color: #D0DF00;
   border: 1px solid #FFFFFF;
   padding: 10px;
+  font-size: 14px;
 }
 
 .btngreenbg svg {
@@ -3466,6 +3467,37 @@ a.info-btn-ver-mas{
     padding:6em; 
   }
 }
+
+/*--------------------------------------------------------------
+# CUSTOM SELECT
+--------------------------------------------------------------*/
+select.custom-select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: rgba(255,255,255,0.4) url('../img/home/ico-select.svg') 98% / 15% no-repeat;
+  background-size: 14px;
+  color: #ffffff;
+}
+
+/* CAUTION: IE hackery ahead */
+select.custom-select::-ms-expand { 
+    display: none; /* remove default arrow on ie10 and ie11 */
+}
+
+/* target Internet Explorer 9 to undo the custom arrow */
+@media screen and (min-width:0\0) {
+    select.custom-select {
+        background:rgba(255,255,255,0.4)\9;
+        padding: 5px\9;
+    } 
+}
+
+.font-size-14{
+  font-size: 14px;
+}
+
+
 /*--------------------------------------------------------------
 # MOBILE
 --------------------------------------------------------------*/
