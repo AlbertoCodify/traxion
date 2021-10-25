@@ -2,7 +2,10 @@
 # General
 --------------------------------------------------------------*/
 
-
+@font-face {
+	font-family: Roboto-Regular;
+	src: url('../fonts/Roboto-Regular.ttf') format("opentype");
+}
 @font-face {
 	font-family: Roboto-Bold;
 	src: url('../fonts/Roboto-Bold.ttf') format("opentype");
@@ -43,7 +46,6 @@
 
 body {
   font-family: "Roboto-Regular", sans-serif;
-  
 }
 
 
@@ -80,7 +82,9 @@ p {
   font-family: "Roboto-Regular";
   color: #707070;
   font-size: 12px;
-
+}
+p strong {
+  font-family: "Roboto-Bold", sans-serif;
 }
 
 
@@ -125,7 +129,7 @@ a:hover {
 }
 
 .bgcolor-pgreen {
-  background-color: #D0DF00;
+  background-color: #D0DF00 !important;
 }
 .bgcolor-pgreenli {
   background-color:#E3E935;
@@ -152,6 +156,12 @@ a:hover {
   background-color: #808080;
 }
 
+.bgcolor-f5f5f5 {
+  background-color: #F5F5F5;
+}
+.bgcolor-f3f3f3 {
+  background-color: #f3f3f3;
+}
 
 .bgcolor-greylight2 {
   background-color: #F5F5F5;
@@ -179,6 +189,9 @@ a:hover {
 }
 .txtcolor-greylight {
   color: #97999B;
+}
+.txtcolor-greylight-2 {
+  color: #707070 !important;
 }
 
 
@@ -1998,6 +2011,1461 @@ padding-top: 6em;
   border-left: 1px dotted #FFFFFF;
 }
 
+
+/*--------------------------------------------------------------
+# INVERSIONISTAS
+--------------------------------------------------------------*/
+#inversionistas-video-informes{
+  padding: 32px 0;
+}
+.btn-card{
+  font-size: 12px;
+  font-weight: bold;
+  color: #53565A;
+  margin: 12px 0;
+  padding-left: 24px;
+}
+.btn-card:hover{
+  color: #53565A !important;
+  opacity: 1;
+}
+.btn-card--vid{
+  background: url(../img/inversionistas/ico-video.svg) no-repeat left center;
+}
+.btn-card--informe{
+  background: url(../img/inversionistas/ico-download.svg) no-repeat left 2px;
+}
+
+@media screen and (min-width:768px){
+  #inversionistas-video-informes{
+    padding: 56px 0;
+  }
+}
+
+@media screen and (min-width:1279px){
+  #inversionistas-video-informes{
+    padding: 80px 0;
+  }
+}
+
+@media screen and (min-width:1365px){
+  #inversionistas-video-informes{
+    padding: 112px 0;
+  }
+}
+
+/*--------------------------------------------------------------
+# INVERSIONISTAS INFORMACIÓN FINANCIERA
+--------------------------------------------------------------*/
+#inversionistas-información-financiera{
+  padding: 32px 0;
+}
+.colocacion-deuda{
+  padding: 16px;
+}
+.colocacion-deuda > h5{
+  font-size: 22px;
+  text-align: center;
+}
+.colocacion-fecha{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin: 32px 0;
+}
+.colocacion-fecha p{
+  margin-bottom: 0;
+  font-size: 16px;
+  padding: 0 16px;
+}
+.btn-download-square-white{
+  font-size: 12px;
+  font-weight: bold;
+  color: #53565A;
+  margin: 12px 0;
+  padding: 12px 24px 12px 40px;
+  background: #ffffff url(../img/inversionistas/ico-download.svg) no-repeat 16px center;
+  display: block;
+}
+.btn-green-border{
+  font-size: 12px;
+  font-weight: bold;
+  color: #53565A;
+  margin: 12px 0;
+  padding: 12px 24px;
+  display: block;
+  border: 1px solid #D0DF00;
+}
+
+.btn-download-square-green-border{
+  font-size: 12px;
+  font-weight: bold;
+  color: #53565A;
+  margin: 12px 0;
+  padding: 12px 24px 12px 40px;
+  background: #ffffff url(../img/inversionistas/ico-download.svg) no-repeat 16px center;
+  display: block;
+  border: 1px solid #D0DF00;
+}
+
+.btn-download-square-gray{
+  font-size: 12px;
+  font-weight: bold;
+  color: #ffffff !important;
+  margin: 12px 0;
+  padding: 12px 24px 12px 40px;
+  background: #97999B url(../img/inversionistas/ico-download-white.svg) no-repeat 16px center;
+  display: block;
+}
+.btn-pdf-square-green-border{
+  font-size: 12px;
+  font-weight: bold;
+  color: #4D532D !important;
+  margin: 12px 0;
+  padding: 12px 24px 12px 40px;
+  background: #ffffff url(../img/sostenibilidad/ico-pdf.svg) no-repeat 16px center;
+  display: block;
+  border: 1px solid #D0DF00;
+}
+.btn-download-square-white:hover,
+.btn-green-border:hover,
+.btn-download-square-green-border:hover,
+.btn-download-square-gray:hover,
+.btn-pdf-square-green-border:hover
+{
+  color: #53565A !important;
+  opacity: 1;
+}
+.bg-white{
+  background: #ffffff;
+}
+.nav-tabs-align{
+  justify-content: center;
+  align-items: center;
+}
+p.tab-link{
+  font-size: 12px;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+}
+.nav-tabs .nav-link{
+  border-top-left-radius: 0rem;
+  border-top-right-radius: 0rem;
+}
+.nav-link-inactive{
+  background-color: #97999B;
+}
+.white-color{
+  color: #ffffff !important;
+}
+.custom-row{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+.col-izq{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin: 0;
+  padding: 24px 16px;
+}
+.col-der{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin: 0;
+  padding: 24px 16px;
+}
+.col-der a{
+  margin: 12px;
+  color: #B5BD00;
+  width: 100%;
+}
+.col-der a.active{
+  color: #53565A;
+}
+.bottom-border-white{
+  border-bottom: 1px solid #ffffff;
+}
+.bg-transparent{
+  background: transparent;
+}
+.card-er-navegacion{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.card-er-navegacion a{
+  color: #ffffff;
+  margin-right: 16px;
+}
+.card-er{
+  width: 100%;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+.card-er p{
+ margin: 0;
+}
+.card-er-titulo{
+  color: #B5BD00;
+  font-size: 12;
+  font-weight: bold;
+}
+.card-er-time{
+  color: #ffffff;
+  font-size: 10;
+}
+p.card-er-description{
+  color: #ffffff !important;
+  font-size: 14px;
+  line-height: 18px;
+  margin: 16px 0;
+}
+a.card-er-button{
+  background: #D0DF00 url(../img/inversionistas/ico-leer-mas.svg) no-repeat 13px 7px;
+  color: #53565A;
+  font-size: 8px;
+  line-height: 8px;
+  font-weight: bold;
+  padding: 10px 12px 10px 35px;
+  margin: 0;
+  width: 88px;
+}
+@media screen and (min-width:768px){
+  .custom-row{
+    flex-direction: row;
+  }
+  .col-der a{
+    margin: 6px;
+  }
+  .nav-tabs-align{
+    justify-content: flex-end;
+  }
+  .colocacion-deuda {
+    margin-top: 36px;
+  }
+  .colocacion-fecha p {
+    padding: 0 4px;
+  }
+  .card-er-navegacion{
+    justify-content: flex-end;
+  }
+  .card-er-navegacion a{
+    margin-right: 0px;
+    margin-left: 16px;
+  }
+}
+@media screen and (min-width:1024px){
+  .custom-row{
+    flex-direction: row;
+  }
+  .col-izq{
+    width: 36%;
+  }
+  .col-der{
+    width: 56%;
+  }
+}
+
+
+/*--------------------------------------------------------------
+# INFORMACIÓN DE LA ACCIÓN
+--------------------------------------------------------------*/
+#inversionistas-informacion-accion{
+  padding-bottom: 100px;
+}
+.cotizacion-container{
+  background: url(../img/inversionistas/cotizacion_de_la_accion.jpg) no-repeat center;
+  background-size: cover;
+  padding: 24px;
+  text-align: center;
+}
+.cotizacion-titulo p{
+  text-transform: uppercase;
+  font-family: Clan-Book !important;
+  font-size: 22px !important;
+  color: #ffffff;
+}
+.cotizacion-titulo p strong{
+  font-family: Clan-Bold;
+}
+.cotizacion-data{
+  display: flex;
+  flex-direction: column;
+}
+.cotizacion-datatext{
+  color: #ffffff;
+  margin: 8px 0;
+}
+.cotizacion-division{
+  background: url(../img/inversionistas/division-horizontal.svg) no-repeat center;
+  width: 100%;
+  height: 3px;
+}
+.btn-open-square-green-border{
+  font-size: 12px;
+  font-weight: bold;
+  color: #53565A;
+  margin: 12px 0;
+  padding: 12px 24px 12px 40px;
+  background: #ffffff url(../img/inversionistas/ico-leer-mas.svg) no-repeat 16px center;
+  background-size: 16px;
+  display: block;
+  border: 1px solid #D0DF00;
+}
+.btn-download-square-green-border{
+  font-size: 12px;
+  font-weight: bold;
+  color: #53565A;
+  margin: 12px 0;
+  padding: 12px 24px 12px 40px;
+  background: #ffffff url(../img/inversionistas/ico-download-gray.svg) no-repeat 16px center;
+  background-size: 16px;
+  display: block;
+  border: 1px solid #D0DF00;
+}
+.btn-open-square-green-border:hover,
+.btn-download-square-green-border:hover
+{
+  color: #53565A !important;
+  opacity: 1;
+}
+.cotizacion-squares{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+.cotizacion-square{
+  width: 100%;
+  height: 50%;
+}
+.square {
+  float:left;
+  position: relative;
+  width: 100%;
+  padding-bottom : 100%; /* = width for a 1:1 aspect ratio */
+  margin:0%;
+  overflow:hidden;
+  border: 1px solid blue;
+}
+
+.contentsquare {
+  position:absolute;
+  height:80%; /* = 100% - 2*10% padding */
+  width:90%; /* = 100% - 2*5% padding */
+  padding: 10% 5%;
+}
+
+.tablesquare{
+  display:table;
+  height:100%;
+  width:100%;
+}
+
+.table-cellsquare{
+  display:table-cell;
+  vertical-align:middle;
+  height:100%;
+  width:100%;
+}
+@media screen and (min-width:767px){
+  .cotizacion-container{
+    text-align: left;
+    background-position: center bottom;
+    padding: 60px 24px 140px 24px;
+  }
+  .cotizacion-data{
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 24px;
+  }
+  .cotizacion-division{
+    background: url(../img/inversionistas/division-vertical.svg) no-repeat center;
+    width: 3px;
+    height: 100%;
+    
+  }
+  .btn-open-square-green-border,
+  .btn-download-square-green-border,
+  .btn-pdf-square-green-border{
+    padding: 12px 48px 12px 48px;
+    display: inline;
+  }
+  .cotizacion-squares{
+    margin-top: 0;
+    height:100%;
+  }
+}
+@media screen and (min-width:1023px){
+  .cotizacion-container{
+    padding: 100px 66px 288px 66px;
+  }
+  
+}
+@media screen and (min-width:1365px){
+  .cotizacion-container{
+    padding: 86px 66px 300px 66px;
+  }
+}
+
+/*--------------------------------------------------------------
+# SECCIÓN 5
+--------------------------------------------------------------*/
+
+.title-card-1{
+  font-size:20px;
+  color:#D0DF00;
+  font-family: Clan-Bold;
+  margin:0;
+  padding:0;
+  text-transform: uppercase;
+}
+.subtitle-card-1{
+  font-size:20px;
+  color:#53565A;
+  font-family: Clan-Book;
+  margin:0 0 16px 0;
+  padding:0;
+  text-transform: uppercase;
+}
+.contwhits2 {
+  background-color: #FFFFFF;
+  padding: 15px 20px;
+  margin-bottom: 24px;
+  position: relative;
+  height: 304px;
+}
+.contwhits2-button{
+  position: absolute;
+  left: 20px;
+  bottom: 15px;
+  width: 100%;
+}
+p.contwhits2-description{
+  font-size: 11px;
+  line-height: 18px;
+  font-family: 'Roboto-Regular', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+@media screen and (min-width:1279px){
+  .contwhits2 {
+    height: 256px;
+  }
+}
+/*--------------------------------------------------------------
+# ANALISTAS
+--------------------------------------------------------------*/
+.bg-analistas{
+  background: url(../img/inversionistas/analistas.jpg) no-repeat center;
+  background-size: cover;
+  padding: 100px 24px;
+  height: 100%;
+  width: 100%;
+  text-align: center;  
+}
+.bg-analistas h1{
+  font-size:36px;
+  color:#ffffff;
+  font-family: Clan-Bold;
+  margin-bottom: 56px;
+  margin-left: 12px;
+  text-transform: uppercase;
+}
+.analistas-grid{
+  display: grid;
+  grid-template-columns: 100%;
+  gap:20px;
+  justify-content: center;
+  align-content: center; 
+  width: 100%;
+  margin:0;
+}
+.analistas-card{
+  background: #ffffff;
+  padding: 14px 16px;
+  text-align: left;  
+  width: 100%;
+}
+.analistas-marca{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 4px solid #D0DF00;
+  padding-bottom: 10px;
+}
+.analistas-marca p{
+  color:#D0DF00;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
+.analistas-nombre{
+  margin: 16px 0;
+}
+.analistas-nombre p{
+  color:#53565A;
+  font-size: 14px;
+  line-height: 32px;
+  margin: 0;
+  padding: 0;
+  background: url(../img/inversionistas/analistas.svg) no-repeat left center;
+  background-size: 32px;
+  padding-left: 48px;
+}
+
+@media screen and (min-width:767px){
+  .bg-analistas{
+    text-align: left;
+  }
+  .bg-analistas h1{
+    margin-left: 0;
+  }
+  .analistas-grid{
+      grid-template-columns: 33% 33% 33%;
+      width: 100%;
+  }
+}
+
+@media screen and (min-width:1023px){
+  .analistas-grid{
+    grid-template-columns: 23% 23% 23% 23%;
+  }
+}
+
+
+/*--------------------------------------------------------------
+# CALENDARIO
+--------------------------------------------------------------*/
+#calendario{
+  padding: 120px 0;
+}
+#datepicker{
+  margin-bottom: 24px;
+}
+.ui-datepicker{
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+.ui-datepicker-calendar{
+  height: 428px;
+}
+.ui-widget.ui-widget-content{
+  width: 100%;
+  border: 0px solid transparent;
+}
+.ui-widget-content{
+  border: 0px solid transparent;
+}
+.ui-datepicker .ui-datepicker-header{
+  padding: 0;
+}
+.ui-widget-header{
+  background: #F5F5F5;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #53565A;
+  padding: 16px 0 !important;
+  border-radius: 0;
+  border: 0px solid transparent;
+}
+.ui-datepicker .ui-datepicker-prev {
+  left: 20%;
+  top: 14px;
+}
+.ui-datepicker .ui-datepicker-next {
+  right: 20%;
+  top: 14px;
+}
+.ui-datepicker .ui-datepicker-prev span{
+  background: url(../img/inversionistas/ico-arrow-left-gray.svg) no-repeat center;
+  background-size: 24px;
+}
+.ui-datepicker .ui-datepicker-next span {
+  background: url(../img/inversionistas/ico-arrow-right-gray.svg) no-repeat center;
+  background-size: 24px;
+}
+.ui-datepicker td{
+  font-size: 16px;
+}
+.ui-datepicker td a{
+  text-align: center;
+}
+.ui-state-default, .ui-widget-content .ui-state-default{
+  border: 0px solid transparent;
+  background: transparent;
+  padding: 14px 0;
+}
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover{
+  background: #d0df00;
+}
+.years-nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background: #D0DF00;
+  padding: 18px 0;
+}
+.years-nav p{
+ font-size: 36px;
+ font-family: 'Clan-Bold', sans-serif;
+ color: #53565A;
+ margin: 0;
+ padding: 0;
+}
+
+
+.eventos{
+  margin: 16px 0;
+  display: flex;
+  flex-direction: column;
+}
+.eventos-titulo{
+  background: #F5F5F5;
+  height: 60px;
+  text-align: center;
+}
+.eventos-titulo p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  line-height: 60px;
+}
+.eventos-list-nav{
+  height: 100%;
+  width: 28px;
+  border: 1px solid #EBEBEB;
+}
+.eventos-contenido{
+  background: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: 432px;
+}
+.eventos-list{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.eventos-list::-webkit-scrollbar {
+  display: none;
+}
+.eventos-list {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+.eventos-item{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 24px;
+  margin: 12px 0;
+  height: 40px;
+  width: 100%;
+}
+.eventos-item a{
+  width: 32px;
+  height: 32px;
+  background: #F5F5F5 url(../img/inversionistas/ico-download-gray.svg) no-repeat center;
+}
+.eventos-item-description{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+.eventos-item-description p{
+  margin: 0;
+  padding: 0;
+}
+.eventos-item-description p:first-of-type{
+  color: #1E2022;
+}
+.eventos-list-nav{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.eventos-list-nav a.btn-nav-up, .eventos-list-nav a.btn-nav-down{
+  width: 24px;
+  height: 18px;
+}
+.eventos-list-nav a.btn-nav-up{
+  margin-bottom: 24px;
+  background: url(../img/inversionistas/ico-nav-up-2.svg) no-repeat center;
+  transform: rotate(90deg);
+  background-size: 10px;
+}
+.eventos-list-nav a.btn-nav-down{
+  margin-bottom: 24px;
+  background: url(../img/inversionistas/ico-nav-up-2.svg) no-repeat center;
+  transform: rotate(-90deg);
+  background-size: 10px;
+}
+
+@media screen and (min-width:767px){
+  #datepicker{
+    margin-top: 64px;
+    margin-bottom: 0;
+  }
+}
+
+
+/*--------------------------------------------------------------
+# MENU STICKY
+--------------------------------------------------------------*/
+.nav-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center ;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1010;
+  width: 100%;
+  background: #D0DF00;
+  height:45px;
+}
+.nav-menu{
+  display: none;
+}
+.nav-menu a{
+  font-size: 12px;
+  color: #53565A;
+  padding-right: 24px;
+  transition: all 0.3s ease-in-out;
+}
+.nav-menu a:hover, .nav-menu a.active, .nav-menu a.active:hover{
+  color: #ffffff;
+}
+.open-menu span{
+  display: none;
+}
+.nav-otros a{
+  padding: 0 8px;
+}
+.nav-otros a.active, .nav-otros a.active:hover{
+  color: #ffffff;
+}
+.nav-otros a.link-divider{
+  border-left: 1px solid #53565A;
+}
+@media screen and (min-width:1279px){
+  .nav-menu{
+    display: flex;
+  }
+  .open-menu span{
+    display: inline;
+  }
+}
+
+/*--------------------------------------------------------------
+# GOBIERNO CORPORATIVO
+--------------------------------------------------------------*/
+#small-hero{
+  width: 100%;
+  height: 384px;
+}
+.bg-gobierno-corporativo{
+  background: url(../img/inversionistas/banner_gobierno_corporativo.jpg) no-repeat center;
+  background-size: cover;
+}
+#gobierno-corporativo{
+  padding: 60px 0; 
+}
+.contenedor-blanco{
+  position: relative; 
+  margin-top: -140px;
+  width: 100%;
+  background: #ffffff;
+  padding: 24px;
+}
+.titulo-principal{
+  font-size: 36px;
+  line-height: 46px;
+  font-family: 'Clan-Bold', sans-serif;
+  color: #D0DF00;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+.subtitulo{
+  font-size: 22px;
+  line-height: 28px;
+  font-family: 'Clan-Book', sans-serif;
+  color: #53565A;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+.subtitulo-white{
+  color: #ffffff;
+}
+.subtitulo-secundario{
+  font-size: 22px;
+  line-height: 32px;
+  font-family: 'Clan-Bold', sans-serif;
+  color: #D0DF00;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+.descripcion-mayusculas{
+  font-size: 16px;
+  line-height: 24px;
+  color: #53565A;
+  font-family: 'Roboto-Light', sans-serif;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+}
+.descripcion-mayusculas span{
+  color: #D0DF00;
+  font-family: 'Roboto-Bold', sans-serif;
+}
+.descripcion-mayusculas span.dark{
+  color: #53565A;
+  font-family: 'Roboto-Bold', sans-serif;
+}
+.gobierno-corporativo-iconos{
+  display: flex;
+  flex-direction: column;
+}
+.gobierno-corporativo-item{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  margin: 0 0 20px 0;
+}
+.gobierno-corporativo-item p{
+  padding-left: 10px;
+  margin: 0;
+}
+.nav-pills{
+  border-bottom: 1px solid #97999B;
+}
+.nav-pills .nav-link {
+  border-radius: 0rem;
+  font-size: 14px;
+}
+.nav-link{
+  background: #E3E3E3;
+  color: #ffffff;
+  margin-right: 8px;
+}
+.nav-pills-2 .nav-link {
+  background: #B5BD00;
+}
+.nav-item{
+  width: 100%;
+  margin-top: 3px;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: #fff;
+  background-color: #97999B;
+}
+.nav-pills-2 .nav-link.active, .nav-pills .show>.nav-link {
+  color: #53565A;
+  background-color: #ffffff;
+}
+.miembro-relacionado, 
+.miembro-independiente,
+.miembro-secretario-no-miembro{
+  border: 1px solid #63666A;
+  height: 30px;
+  margin-bottom: 16px;
+  padding: 4px 0;
+}
+.miembro-relacionado{
+  background: url(../img/inversionistas/icono_miembro_relacionado.svg) no-repeat 12px center;
+  background-size: 24px;
+} 
+.miembro-independiente{
+  background: url(../img/inversionistas/icono_miembro_independiente.svg) no-repeat 12px center;
+  background-size: 24px;
+}
+.miembro-secretario-no-miembro{
+  background: url(../img/inversionistas/icono_secretario.svg) no-repeat 12px center;
+  background-size: 24px;
+}
+.miembro-relacionado p,
+.miembro-independiente p,
+.miembro-secretario-no-miembro p
+{
+  line-height: 21px;
+  margin: 0;
+  padding: 0 0 0 50px;
+}
+.image-card{
+  display: block;
+  width: 100%;
+  height: 238px;
+}
+.card-height-378{
+  height: 378px;
+}
+.card-height-200{
+  height: 200px;
+}
+.parrafo-margin-top-1{
+  margin-top: 43px;
+}
+.card-box{
+  padding: 0 16px 0 0;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  width: 100%;
+  height: 244px;
+}
+.card-box::-webkit-scrollbar {
+  width: 20px;
+}
+.card-box::-webkit-scrollbar-track {
+  background: #707070;
+  border-left: 9px solid white;
+  border-right: 10px solid white;
+}
+
+.card-box::-webkit-scrollbar-thumb {
+  background: url(../img/inversionistas/ico-scrollbar-circle.svg) no-repeat;
+  background-size: 12px;
+  border-left: 3px solid white;
+  border-right: 3px solid white;
+}
+.bg-equipo-directivo{
+  background: url(../img/inversionistas/equipo_directivo.jpg) no-repeat center;
+  background-size: cover;
+  padding: 150px 24px;
+  height: 100%;
+  width: 100%;
+  text-align: center;  
+}
+.equipo-directivo-grid{
+  display: grid;
+  grid-template-columns: 100%;
+  gap:20px;
+  justify-content: center;
+  align-content: center; 
+  width: 100%;
+  margin:0;
+}
+.equipo-directivo-card{
+  background: #ffffff;
+  padding: 20px 16px;
+  text-align: left;  
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.equipo-directivo-card p{
+  color:#53565A;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto-Light', sans-serif;
+}
+.equipo-directivo-card p strong{
+  font-family: 'Roboto-Bold', sans-serif;
+}
+.equipo-directivo-ico{
+  margin-right: 20px;
+}
+
+
+@media screen and (min-width:767px){
+  .contenedor-blanco{
+    padding: 40px 80px;
+  }
+  .equipo-directivo-grid{
+    grid-template-columns: 33% 33% 33%;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .bg-equipo-directivo{
+    text-align: left;
+  }
+  .gobierno-corporativo-iconos{
+    flex-direction: row;
+  }
+  .gobierno-corporativo-item{
+    align-items: flex-start;
+    width: 128px;
+    margin-right: 16px;
+  }
+  .nav-item{
+    width: auto;
+  }
+}
+
+
+/*--------------------------------------------------------------
+# DOCUMENTOS DE INTERÉS
+--------------------------------------------------------------*/
+#documentos-interes{
+  padding: 40px 0;
+}
+.docs{
+  display: flex;
+  flex-direction: column;
+}
+.docs-trailer{
+  margin-bottom: 16px;
+}
+.docs-link{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #BFD74D;
+  padding:40px;
+}
+.docs-link a{
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+@media screen and (min-width:767px){
+  #documentos-interes{
+    padding: 116px 0;
+  }
+  .docs{
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .docs-trailer{
+    margin-bottom: 0;
+  }
+  .docs-trailer, .docs-link{
+    width: 48%;
+  }
+  .docs-link{
+    height: 300px;
+  }
+  .docs-link img{
+    margin-bottom: 40px;
+  }
+  .docs-trailer img{
+    height: 300px;
+    margin: 0;
+    padding: 0;
+  }
+}
+@media screen and (min-width:1023px){
+  .docs-trailer img{
+    height: auto;
+  }
+  .docs-link{
+    height: auto;
+  }
+}
+
+/*--------------------------------------------------------------
+# ASAMBLEA ACCIONISTAS
+--------------------------------------------------------------*/
+#asamblea-accionistas{
+  padding: 40px 0;
+}
+.asamblea-header{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+}
+.asamblea-titulo{
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  padding: 16px;
+}
+.asamblea-fecha{
+  background: #D0DF00;
+  width: 100%;
+  height: 74px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.asamblea-fecha P{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto-Bold', sans-serif;
+}
+
+@media screen and (min-width:767px){
+  #asamblea-accionistas{
+    padding: 116px 0;
+  }
+  .asamblea-header{
+    flex-direction: row;
+  }
+  .asamblea-titulo{
+    width: 350px;
+    margin: 18px 0 0 80px;
+  }
+  .asamblea-fecha{
+    width: 416px;
+  }
+}
+
+
+/*--------------------------------------------------------------
+# EVENTOS RELEVANTES
+--------------------------------------------------------------*/
+.bg-eventos-relevantes{
+  background: url(../img/inversionistas/banner_eventos_relevantes.jpg) no-repeat center;
+  background-size: cover;
+}
+#eventos-relevantes{
+  padding: 60px 0; 
+}
+.evento-relevante-card{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #97999B;
+  padding: 20px 0;
+}
+.evento-relevante-tipo{
+  font-family: 'Roboto-Bold', sans-serif;
+  font-size: 12px;
+  line-height: 12px;
+  margin: 0;
+  padding: 0;
+  color: #D0DF00;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+.evento-relevante-titulo{
+  font-family: 'Roboto-Regular', sans-serif;
+  font-size: 24px;
+  line-height: 30px;
+  margin: 8px 0;
+  padding: 0;
+  color: #000000;
+}
+
+/*--------------------------------------------------------------
+# DOCUMENTOS DE INTERÉS
+--------------------------------------------------------------*/
+.bg-documentos-interes{
+  background: url(../img/inversionistas/banner_documentos_de_interes.jpg) no-repeat center;
+  background-size: cover;
+}
+#documentos-interes{
+  padding: 60px 0; 
+}
+
+/*--------------------------------------------------------------
+# NOSOTROS II
+--------------------------------------------------------------*/
+.bg-nosotros-ii{
+  background: url(../img/inversionistas/banner_nosotros_ii.jpg) no-repeat center;
+  background-size: cover;
+}
+#nosotros-ii{
+  padding: 60px 0; 
+}
+.nosotros-grid{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.nosotros-grid-col{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+}
+.nosotros-grid-1{
+  height: 40%;
+  background: url('../img/inversionistas/img-1-traxion-numeros.png') no-repeat center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px 0;
+  margin: 0 0 12px 0;
+}
+.nosotros-grid-2{
+  background: url('../img/inversionistas/img-2-unidades-moviles.png') no-repeat center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0;
+  margin: 0 0 12px 0;
+}
+.nosotros-grid-3{
+  background: url('../img/inversionistas/img-3-colaboradores.png') no-repeat center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0;
+  margin: 0 0 12px 0;
+}
+.nosotros-grid-4{
+  height: 47%;
+  background: url('../img/inversionistas/img-4-clientes.png') no-repeat center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0;
+  margin: 0 0 12px 0;
+}
+.nosotros-grid-5{
+  height: 47%;
+  background: url('../img/inversionistas/img-5-mts-almacen.png') no-repeat center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0;
+  margin: 0 0 12px 0;
+}
+p.nosotros-numero{
+  font-size: 36px;
+  line-height: 36px;
+  font-family: 'Clan-Bold', sans-serif;
+  color: #ffffff;
+  margin: 0 0 12px 0;
+  padding: 0;
+}
+p.nosotros-descripcion{
+  font-size: 14px;
+  line-height: 18px;
+  font-family: 'Roboto-Light', sans-serif;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+@media screen and (min-width:767px){
+  .nosotros-grid{
+    flex-direction: row;
+  }
+  .nosotros-grid-col{
+    width: 32.8%;
+    height: 528px;
+  }
+  .nosotros-grid-1{
+    height: 174px;
+    padding:0;
+    margin: 0;
+  }
+  .nosotros-grid-2{
+    height: 347px;
+    padding:0;
+    margin: 0;
+  }
+  .nosotros-grid-3{
+    height: 100%;
+    padding:0;
+    margin: 0;
+  }
+  .nosotros-grid-4, .nosotros-grid-5{
+    height: 261px;
+    padding:0;
+    margin: 0;
+  }
+}
+
+/*--------------------------------------------------------------
+# SOSTENIBILIDAD
+--------------------------------------------------------------*/
+ul.card-list, ul.card-list li{
+  margin: 0;
+  padding: 0;
+}
+ul.card-list li{
+  color: #53565A;
+  margin:0 0 8px 14px;
+  font-size: 12px;
+  font-size: 'Roboto-Light', sans-serif;
+}
+
+/*--------------------------------------------------------------
+# SOSTENIBILIDAD / POLÍTICAS
+--------------------------------------------------------------*/
+#sostenibilidad-politicas{
+  padding: 100px 0;
+  background: rgb(208,223,0);
+  background: -moz-linear-gradient(180deg, rgba(208,223,0,1) 0%, rgba(208,223,0,1) 38%, rgba(99,102,106,1) 38%, rgba(99,102,106,1) 100%);
+  background: -webkit-linear-gradient(180deg, rgba(208,223,0,1) 0%, rgba(208,223,0,1) 38%, rgba(99,102,106,1) 38%, rgba(99,102,106,1) 100%);
+  background: linear-gradient(180deg, rgba(208,223,0,1) 0%, rgba(208,223,0,1) 38%, rgba(99,102,106,1) 38%, rgba(99,102,106,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d0df00",endColorstr="#63666a",GradientType=1);
+}
+
+.description-top-margin{
+  margin-top: 45px !important;
+}
+
+p.parrafo-principal{
+  font-size: 15px;
+  line-height: 24px;
+  font-family: 'Roboto-Light', sans-serif;
+}
+
+@media screen and (min-width:767px){
+  #sostenibilidad-politicas{
+    padding: 100px 0;
+    background: rgb(208,223,0);
+    background: -moz-linear-gradient(90deg, rgba(208,223,0,1) 0%, rgba(208,223,0,1) 45%, rgba(99,102,106,1) 45%, rgba(99,102,106,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(208,223,0,1) 0%, rgba(208,223,0,1) 45%, rgba(99,102,106,1) 45%, rgba(99,102,106,1) 100%);
+    background: linear-gradient(90deg, rgba(208,223,0,1) 0%, rgba(208,223,0,1) 45%, rgba(99,102,106,1) 45%, rgba(99,102,106,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d0df00",endColorstr="#63666a",GradientType=1);
+  }
+}
+
+/*--------------------------------------------------------------
+# DIVULGACIÓN
+--------------------------------------------------------------*/
+.divulgacion-downloads{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.divulgacion-col{
+  width: 100%;
+}
+p.subtitulo-white2{
+  font-size: 22px;
+  color: #ffffff;
+}
+
+@media screen and (min-width:767px){
+  .divulgacion-downloads{
+    flex-direction: row;
+  }
+  .divulgacion-col{
+    width: 48%;
+  }
+}
+
+
+/*--------------------------------------------------------------
+# RELACIÓN CON GRUPOS DE INTERÉS
+--------------------------------------------------------------*/
+.tab-contenido{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.tab-columna{
+  width: 100%;
+  padding: 20px 0;
+}
+.tab-divider{
+  width: 100%;
+  height: 1px;
+  background: #707070;
+}
+.tab-margin-top{
+  margin-top: 34px;
+}
+.text-transform-none{
+  text-transform: none;
+}
+@media screen and (min-width:767px){
+  .tab-contenido{
+    flex-direction: row;
+  }
+  .tab-columna{
+    width: 30%;
+  }
+  .tab-divider{
+    width: 1px;
+    height: 200px;
+  }
+}
+/*--------------------------------------------------------------
+# TRAILER DIVIDER
+--------------------------------------------------------------*/
+#trailer-divider{
+  background: url('../img/sostenibilidad/img-trailer-amarillo.png') no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 233px;
+}
+
+
+/*--------------------------------------------------------------
+# INFORMACIÓN RELEVANTE
+--------------------------------------------------------------*/
+.informacion-relevante-container{
+  background-image: none !important; 
+  padding:24px; 
+  height: auto !important;
+}
+.info-tipo{
+  font-size: 12px;
+  font-family: 'Roboto-Medium', sans-serif;
+  letter-spacing: 3px;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+.info-tiempo{
+  font-size: 10px;
+  font-family: 'Roboto-Regular', sans-serif;
+  color: #ffffff;
+  margin: 0 0 24px 0;
+  padding: 0;
+}
+.info-titulo{
+  font-size: 16px;
+  line-height: 22px;
+  font-family: 'Roboto-Medium', sans-serif;
+  color: #ffffff;
+  margin: 0 0 24px 0;
+  padding: 0;
+}
+a.info-btn-ver-mas{
+  font-size: 10px;
+  line-height: 10px;
+  font-family: 'Roboto-Regular', sans-serif;
+  color: #ffffff;
+  margin: 0;
+  padding: 4px 0 4px 24px;
+  background: url('../img/sostenibilidad/ico-ver-mas.png') no-repeat left center;
+  background-size: 14px;
+}
+.card-img-responsive{
+  width: 100%;
+  height: auto;
+}
+@media screen and (min-width:767px){
+  .informacion-relevante-container{
+    padding:6em; 
+  }
+}
 /*--------------------------------------------------------------
 # MOBILE
 --------------------------------------------------------------*/
