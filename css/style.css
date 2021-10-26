@@ -3328,7 +3328,8 @@ ul.card-list li{
   margin-top: 45px !important;
 }
 
-p.parrafo-principal{
+p.parrafo-principal, 
+#valorcomp2 #odsinfos .info {
   font-size: 15px;
   line-height: 24px;
   font-family: 'Roboto-Light', sans-serif;
@@ -3497,6 +3498,682 @@ select.custom-select::-ms-expand {
   font-size: 14px;
 }
 
+
+
+
+/*--------------------------------------------------------------
+# CONTRIBUCIÓN A LOS ODS
+--------------------------------------------------------------*/
+
+
+
+#valorcomp2 {
+ 
+  height: auto;
+ padding-top: 40px;
+ padding-bottom: 40px;
+ padding-left: 0;
+ padding-right: 0;
+}
+
+
+#valorcomp2 #odsinfos .titles {
+  font-family: 'Roboto-Regular', sans-serif;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+
+#valorcomp2 #odsinfos .iconodss {
+  width: 100px;
+
+}
+
+#valorcomp2 #odsinfos .hideinfo {
+  display: none;
+
+}
+
+#valorcomp2 #odsinfos .showinfo {
+  display: block;
+
+}
+
+
+
+#valorcomp2 #tabcont1 {
+  padding-left: 0;
+
+}
+
+#valorcomp2 .txtti26 {
+  color: #ffffff;
+  font-size: 26px;
+
+}
+
+#valorcomp2 .txtti20 {
+  color: #ffffff;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+
+#valorcomp2 .odscont1 {
+  background-color: #d0df02;
+  height: 48px;
+  border-radius: 5px 5px 0 0;
+  margin-bottom: 5px;
+}
+
+#valorcomp2 .odscont1 img.imgdaclick {
+
+  float: left;
+  width: 42px;
+  margin-top: 2px;
+}
+
+#valorcomp2 .odscont1 p {
+  margin-left: 10px;
+  margin-top: 10px;
+  color: #53565A;
+  float: left;
+  margin-bottom: 0;  
+  line-height: 32px;
+  font-size: 16px;  
+  font-family: 'Roboto-Bold', sans-serif;
+}
+
+#valorcomp2 .odscbtnprin {
+  
+  padding: 0;
+  
+
+}
+
+#valorcomp2 .odscbtnprin a {
+  width: 250px;
+  height: 39px;
+  display: block;
+  float: left;
+  
+
+}
+
+#valorcomp2 .odscbtnprin a.odsbtamb {
+  background-image: url(../img/valor_compartido/btnambiental.png);
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
+  
+}
+
+#valorcomp2 .odscbtnprin a.odsbtamb:hover {
+  background-image: url(../img/valor_compartido/btnambientalhover.png);
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
+  
+}
+
+
+
+#valorcomp2 .odscbtnprin a.odsbtsocial {
+  background-image: url(../img/valor_compartido/btn_social.png);
+  background-size: contain;
+  background-position: top;
+  background-repeat:  no-repeat;
+  margin-left: 5px;
+  
+
+}
+
+#valorcomp2 .odscbtnprin a.odsbtsocial:hover {
+  background-image: url(../img/valor_compartido/btn_socialhover.png);
+  background-size: contain;
+  background-position: top;
+  background-repeat:  no-repeat;
+  margin-left: 5px;
+  
+
+}
+
+#valorcomp2 .odscbtnprin a.odsbtgob {
+
+  background-image: url(../img/valor_compartido/btngobierno.png);
+  background-size: contain;
+  background-position: top;
+  background-repeat:  no-repeat;
+  margin-left: 5px;
+
+}
+
+#valorcomp2 .odscbtnprin a.odsbtgob:hover {
+
+  background-image: url(../img/valor_compartido/btngobiernohover.png);
+  background-size: contain;
+  background-position: top;
+  background-repeat:  no-repeat;
+  margin-left: 5px;
+
+}
+
+
+#valorcomp2 .odscont2 {
+  background-color: #d0df02;
+  height: 30px;
+  text-align: center;
+
+}
+
+#valorcomp2 .odscont2 p {
+  
+  color: #53565A;
+  margin-top: 2px;
+  margin-bottom: 0;
+  line-height: 26px;
+  font-size: 16px;  
+  font-family: 'Roboto-Bold', sans-serif;
+}
+
+#valorcomp2 .odscontbtt  {
+  
+ padding: 0;
+  
+}
+
+#valorcomp2 .odscontbtt a {
+  
+  width: 148px;
+  height: 148px;
+  margin:5px auto;
+  background-color: #EEF2F4;
+  float: left;
+  
+}
+
+#valorcomp2 .odscontbtt a.odsbt1 {
+  
+  background-image: url(../img/valor_compartido/ods1.png);
+  background-size:  cover;
+  background-position: top left;
+  background-repeat:  no-repeat;
+  
+}
+
+#valorcomp2 .odscontbtt a.odsbt1:hover {
+  
+  background-image: url(../img/valor_compartido/ods1hover.png);
+  background-size:  cover;
+  background-position: top left;
+  background-repeat:  no-repeat;
+  
+}
+
+.active_num1 {
+  
+  background-image: url(../img/valor_compartido/ods1hover.png) !important;
+  
+  
+}
+
+#valorcomp2 .odscontbtt a.odsbt2 {
+  
+  background-image: url(../img/valor_compartido/ods2.png);
+  background-size:  cover;
+  background-position: top;
+  background-repeat:  no-repeat;
+  margin-left: 5px;
+  
+}
+
+#valorcomp2 .odscontbtt a.odsbt2:hover {
+  
+  background-image: url(../img/valor_compartido/ods2hover.png);
+  background-size:  cover;
+  background-position: top;
+  background-repeat:  no-repeat;
+  
+}
+
+#valorcomp2 .odscontbtt a.odsbt3 {
+  
+  background-image: url(../img/valor_compartido/ods3.png);
+  background-size:  cover;
+  background-position: top;
+  background-repeat:  no-repeat;
+  margin-left: 5px;
+  
+}
+
+#valorcomp2 .odscontbtt a.odsbt3:hover {
+  
+  background-image: url(../img/valor_compartido/ods3hover.png);
+  background-size:  cover;
+  background-position: top;
+  background-repeat:  no-repeat;
+  
+}
+
+#valorcomp2 .odscontbtt a.odsbt4 {
+  
+  background-image: url(../img/valor_compartido/ods4.png);
+  background-size:  cover;
+  background-position: top;
+  background-repeat:  no-repeat;
+  margin-left: 5px;
+}
+#valorcomp2 .odscontbtt a.odsbt4:hover {
+  
+  background-image: url(../img/valor_compartido/ods4hover.png);
+  background-size:  cover;
+  background-position: top;
+  background-repeat:  no-repeat;
+  
+}
+
+
+
+#valorcomp2 .odscontbtt a.odsbt5 {
+  
+  background-image: url(../img/valor_compartido/ods5.png);
+  background-size: cover;
+  background-position: top left;
+  background-repeat:  no-repeat;
+  margin-left: 5px;
+}
+#valorcomp2 .odscontbtt a.odsbt5:hover {
+  
+  background-image: url(../img/valor_compartido/ods5hover.png);
+  background-size: cover;
+  background-position: top left;
+  background-repeat:  no-repeat;
+  
+}
+
+#valorcomp2 .odscont3 {
+  background-color: #d0df02;
+  height: 30px;
+  text-align: center;
+  margin-bottom: 5px;
+
+}
+
+#valorcomp2 .odscont3 p {
+  
+  color: #53565A;
+  margin-top: 2px;
+  margin-bottom: 0;
+  line-height: 26px;
+  font-size: 16px;  
+  font-family: 'Roboto-Bold', sans-serif;
+}
+
+#valorcomp2 .odssubbt  {
+  margin-bottom: 5px;
+  padding: 0;
+   
+ }
+ 
+ #valorcomp2 .odssubbt a {
+   
+  width: 123px;
+  height: 123px;
+   
+   background-color: #EEF2F4;
+   float: left;
+   
+ }
+
+ #valorcomp2 .odssubbt a.odsubtn1 {
+  
+  background-image: url(../img/valor_compartido/subods1.png);
+  background-size: cover;
+  background-position: top left;
+  background-repeat:  no-repeat;
+  
+}
+
+#valorcomp2 .odssubbt a.odsubtn1:hover {
+  
+  background-image: url(../img/valor_compartido/subods1hover.png);
+  background-size: cover;
+  background-position: top left;
+  background-repeat:  no-repeat;
+  
+}
+
+#valorcomp2 .odssubbt a.odsubtn2 {
+  margin-left: 4px;
+  background-image: url(../img/valor_compartido/subods2.png);
+  background-size: cover;
+  background-position: top left;
+  background-repeat:  no-repeat;
+  
+}
+
+#valorcomp2 .odssubbt a.odsubtn2:hover {
+  
+  background-image: url(../img/valor_compartido/subods2hover.png);
+  background-size: cover;
+  background-position: top left;
+  background-repeat:  no-repeat;
+  
+}
+
+#valorcomp2 .odssubbt a.odsubtn3 {
+  margin-left: 4px;
+  background-image: url(../img/valor_compartido/subods3.png);
+  background-size: cover;
+  background-position: top left;
+  background-repeat:  no-repeat;
+  
+}
+
+#valorcomp2 .odssubbt a.odsubtn3:hover {
+  
+  background-image: url(../img/valor_compartido/subods3hover.png);
+  background-size: cover;
+  background-position: top left;
+  background-repeat:  no-repeat;
+  
+}
+
+#valorcomp2 .odssubbt a.odsubtn4 {
+  margin-left: 4px;
+  background-image: url(../img/valor_compartido/subods4.png);
+  background-size: cover;
+  background-position: top left;
+  background-repeat:  no-repeat;
+  
+}
+
+#valorcomp2 .odssubbt a.odsubtn4:hover {
+  
+  background-image: url(../img/valor_compartido/subods4hover.png);
+  background-size: cover;
+  background-position: top left;
+  background-repeat:  no-repeat;
+  
+}
+
+#valorcomp2 .odssubbt a.odsubtn5 {
+  margin-left: 4px;
+  background-image: url(../img/valor_compartido/subods5.png);
+  background-size: cover;
+  background-position: top left;
+  background-repeat:  no-repeat;
+  
+}
+
+#valorcomp2 .odssubbt a.odsubtn5:hover {
+  
+  background-image: url(../img/valor_compartido/subods5hover.png);
+  background-size: cover;
+  background-position: top left;
+  background-repeat:  no-repeat;
+  
+}
+
+#valorcomp2 .odssubbt a.odsubtn6 {
+  margin-left: 5px;
+  background-image: url(../img/valor_compartido/subods6.png);
+  background-size:cover;
+  background-position: top left;
+  background-repeat:  no-repeat;
+  
+}
+
+#valorcomp2 .odssubbt a.odsubtn6:hover {
+  
+  background-image: url(../img/valor_compartido/subods6hover.png);
+  background-size: cover;
+  background-position: top left;
+  background-repeat:  no-repeat;
+  
+}
+
+#valorcomp2 .odssubbt a.odsubtn7 {
+  
+  background-image: url(../img/valor_compartido/subods7.png);
+  background-size: cover;
+  background-position: top left;
+  background-repeat:  no-repeat;
+  
+}
+
+#valorcomp2 .odssubbt a.odsubtn7:hover {
+  
+  background-image: url(../img/valor_compartido/subods7hover.png);
+  background-size: cover;
+  background-position: top left;
+  background-repeat:  no-repeat;
+  
+}
+
+#valorcomp2 .odssubbt a.odsubtn8 {
+  margin-left: 4px;
+  background-image: url(../img/valor_compartido/subods8.png);
+  background-size: cover;
+  background-position: top left;
+  background-repeat:  no-repeat;
+  
+}
+
+#valorcomp2 .odssubbt a.odsubtn8:hover {
+  
+  background-image: url(../img/valor_compartido/subods8hover.png);
+  background-size: cover;
+  background-position: top left;
+  background-repeat:  no-repeat;
+  
+}
+
+#valorcomp2 .odssubbt a.odsubtn9 {
+  margin-left: 4px;
+  background-image: url(../img/valor_compartido/subods9.png);
+  background-size: cover;
+  background-position: top left;
+  background-repeat:  no-repeat;
+  
+}
+
+#valorcomp2 .odssubbt a.odsubtn9:hover {
+  
+  background-image: url(../img/valor_compartido/subods9hover.png);
+  background-size: cover;
+  background-position: top left;
+  background-repeat:  no-repeat;
+  
+}
+
+#valorcomp2 .odssubbt a.odsubtn10 {
+  margin-left: 4px;
+  background-image: url(../img/valor_compartido/subods10.png);
+  background-size: cover;
+  background-position: top left;
+  background-repeat:  no-repeat;
+  
+}
+
+#valorcomp2 .odssubbt a.odsubtn10:hover {
+  
+  background-image: url(../img/valor_compartido/subods10hover.png);
+  background-size: cover;
+  background-position: top left;
+  background-repeat:  no-repeat;
+  
+}
+
+
+#valorcomp2 .odssubbt a.odsubtn11 {
+  margin-left: 4px;
+  background-image: url(../img/valor_compartido/subods11.png);
+  background-size: cover;
+  background-position: top left;
+  background-repeat:  no-repeat;
+  
+}
+
+#valorcomp2 .odssubbt a.odsubtn11:hover {
+  
+  background-image: url(../img/valor_compartido/subods11hover.png);
+  background-size: cover;
+  background-position: top left;
+  background-repeat:  no-repeat;
+  
+}
+
+#valorcomp2 .odssubbt a.odsubtn12 {
+  margin-left: 4px;
+  background-image: url(../img/valor_compartido/subods12.png);
+  background-size: cover;
+  background-position: top left;
+  background-repeat:  no-repeat;
+  
+}
+
+#valorcomp2 .odssubbt a.odsubtn12:hover {
+  
+  background-image: url(../img/valor_compartido/subods12hover.png);
+  background-size: cover;
+  background-position: top left;
+  background-repeat:  no-repeat;
+  
+}
+
+.active_uno {
+  
+  background-image: url(../img/valor_compartido/subods1hover.png) !important;
+  
+  
+}
+.active_dos {
+  
+  background-image: url(../img/valor_compartido/subods2hover.png) !important;
+  
+  
+}
+.active_tres {
+  
+  background-image: url(../img/valor_compartido/ods1hover.png) !important;
+  
+  
+}
+.active_cuatro {
+  
+  background-image: url(../img/valor_compartido/subods3hover.png) !important;
+  
+  
+}
+.active_cinco {
+  
+  background-image: url(../img/valor_compartido/ods2hover.png) !important;
+  
+  
+}
+.active_seis {
+  
+  background-image: url(../img/valor_compartido/subods4hover.png) !important;
+  
+  
+}
+.active_siete {
+  
+  background-image: url(../img/valor_compartido/subods5hover.png) !important;
+  
+  
+}
+.active_ocho {
+  
+  background-image: url(../img/valor_compartido/ods3hover.png) !important;
+  
+  
+}
+
+
+.active_nueve {
+  
+  background-image: url(../img/valor_compartido/subods6hover.png) !important;
+  
+  
+}
+
+.active_diez {
+  
+  background-image: url(../img/valor_compartido/subods7hover.png) !important;
+  
+  
+}
+
+.active_once {
+  
+  background-image: url(../img/valor_compartido/subods8hover.png) !important;
+  
+  
+}
+
+
+.active_doce {
+  
+  background-image: url(../img/valor_compartido/ods4hover.png) !important;
+  
+  
+}
+
+
+.active_trece {
+  
+  background-image: url(../img/valor_compartido/ods5hover.png) !important;
+  
+  
+}
+
+
+.active_catorce {
+  
+  background-image: url(../img/valor_compartido/subods9hover.png) !important;
+  
+  
+}
+
+
+.active_quince {
+  
+  background-image: url(../img/valor_compartido/subods10hover.png) !important;
+  
+  
+}
+
+.active_dieciseis {
+  
+  background-image: url(../img/valor_compartido/subods11hover.png) !important;
+  
+  
+}
+
+.active_diecisiete {
+  
+  background-image: url(../img/valor_compartido/subods12hover.png) !important;
+  
+  
+}
+
+
+/*--------------------------------------------------------------
+# NOTICIAS
+--------------------------------------------------------------*/
+.bg-noticias{
+  background: url(../img/noticias/bg-noticias.png) no-repeat center;
+  background-size: cover;
+}
+.noticias-card{
+  padding: 24px;
+} 
+.noticias-card hr{
+  color: #97999B;
+}
 
 /*--------------------------------------------------------------
 # MOBILE
