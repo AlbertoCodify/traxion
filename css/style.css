@@ -3320,6 +3320,14 @@ ul.card-list li{
     font-size: 48px !important;
   }
 }
+.titulo-ods{
+  font-size: 14px;
+  font-family: 'Roboto-Medium', sans-serif;
+  color: #4D532D;
+  margin: 0;
+  padding: 0;
+  border: 2px solid #D0DF00;
+}
 
 /*--------------------------------------------------------------
 # SOSTENIBILIDAD / POLÍTICAS
