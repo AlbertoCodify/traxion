@@ -3324,11 +3324,131 @@ ul.card-list li{
   font-size: 14px;
   font-family: 'Roboto-Medium', sans-serif;
   color: #4D532D;
-  margin: 0;
-  padding: 0;
+  margin: 0 0 24px 0;
+  padding: 0 24px;
   border: 2px solid #D0DF00;
 }
 
+ul.cuadros-contenedor{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+ul.cuadros-contenedor li{
+  list-style: none;
+  width: 100px;
+  height: 100px;
+  padding: 4px;
+  margin: 0;
+  display: inline-block;
+}
+ul.cuadros-contenedor li a{
+  width: 100px !important;
+  height: 100px !important;
+}
+
+.od1{
+  background-image: url(../img/valor_compartido/subods1.png);
+  background-size:  cover;
+  background-position: top;
+  background-repeat:  no-repeat;
+}
+.od2{
+  background-image: url(../img/valor_compartido/subods2.png);
+  background-size:  cover;
+  background-position: top;
+  background-repeat:  no-repeat;
+}
+.od3{
+  background-image: url(../img/valor_compartido/ods1hover.png);
+  background-size:  cover;
+  background-position: top;
+  background-repeat:  no-repeat;
+}
+.od4{
+  background-image: url(../img/valor_compartido/subods3hover.png);
+  background-size:  cover;
+  background-position: top;
+  background-repeat:  no-repeat;
+}
+.od5{
+  background-image: url(../img/valor_compartido/ods2hover.png);
+  background-size:  cover;
+  background-position: top;
+  background-repeat:  no-repeat;
+}
+.od6{
+  background-image: url(../img/valor_compartido/subods6.png);
+  background-size:  cover;
+  background-position: top;
+  background-repeat:  no-repeat;
+}
+.od7{
+  background-image: url(../img/valor_compartido/subods5hover.png);
+  background-size:  cover;
+  background-position: top;
+  background-repeat:  no-repeat;
+}
+.od8{
+  background-image: url(../img/valor_compartido/ods3hover.png);
+  background-size:  cover;
+  background-position: top;
+  background-repeat:  no-repeat;
+}
+.od9{
+  background-image: url(../img/valor_compartido/subods6hover.png);
+  background-size:  cover;
+  background-position: top;
+  background-repeat:  no-repeat;
+}
+.od10{
+  background-image: url(../img/valor_compartido/subods7hover.png);
+  background-size:  cover;
+  background-position: top;
+  background-repeat:  no-repeat;
+}
+.od11{
+  background-image: url(../img/valor_compartido/subods8hover.png);
+  background-size:  cover;
+  background-position: top;
+  background-repeat:  no-repeat;
+}
+.od12{
+  background-image: url(../img/valor_compartido/ods4.png);
+  background-size:  cover;
+  background-position: top;
+  background-repeat:  no-repeat;
+}
+.od13{
+  background-image: url(../img/valor_compartido/ods5.png);
+  background-size:  cover;
+  background-position: top;
+  background-repeat:  no-repeat;
+}
+.od14{
+  background-image: url(../img/valor_compartido/subods9.png);
+  background-size:  cover;
+  background-position: top;
+  background-repeat:  no-repeat;
+}
+.od15{
+  background-image: url(../img/valor_compartido/subods10.png);
+  background-size:  cover;
+  background-position: top;
+  background-repeat:  no-repeat;
+}
+.od16{
+  background-image: url(../img/valor_compartido/subods11hover.png);
+  background-size:  cover;
+  background-position: top;
+  background-repeat:  no-repeat;
+}
+.od17{
+  background-image: url(../img/valor_compartido/subods12.png);
+  background-size:  cover;
+  background-position: top;
+  background-repeat:  no-repeat;
+}
 /*--------------------------------------------------------------
 # SOSTENIBILIDAD / POLÍTICAS
 --------------------------------------------------------------*/
@@ -3754,23 +3874,11 @@ select.custom-select::-ms-expand {
   
 }
 
-#valorcomp2 .odscontbtt a.odsbt3 {
-  
-  background-image: url(../img/valor_compartido/ods3.png);
-  background-size:  cover;
-  background-position: top;
-  background-repeat:  no-repeat;
-  margin-left: 5px;
-  
-}
-
-#valorcomp2 .odscontbtt a.odsbt3:hover {
-  
+#valorcomp2 .odssubbt a.odsbt3 {
   background-image: url(../img/valor_compartido/ods3hover.png);
-  background-size:  cover;
-  background-position: top;
+  background-size: cover;
+  background-position: top left;
   background-repeat:  no-repeat;
-  
 }
 
 #valorcomp2 .odscontbtt a.odsbt4 {
@@ -3852,15 +3960,6 @@ select.custom-select::-ms-expand {
   
 }
 
-#valorcomp2 .odssubbt a.odsubtn1:hover {
-  
-  background-image: url(../img/valor_compartido/subods1hover.png);
-  background-size: cover;
-  background-position: top left;
-  background-repeat:  no-repeat;
-  
-}
-
 #valorcomp2 .odssubbt a.odsubtn2 {
   margin-left: 4px;
   background-image: url(../img/valor_compartido/subods2.png);
@@ -3870,27 +3969,9 @@ select.custom-select::-ms-expand {
   
 }
 
-#valorcomp2 .odssubbt a.odsubtn2:hover {
-  
-  background-image: url(../img/valor_compartido/subods2hover.png);
-  background-size: cover;
-  background-position: top left;
-  background-repeat:  no-repeat;
-  
-}
-
 #valorcomp2 .odssubbt a.odsubtn3 {
   margin-left: 4px;
-  background-image: url(../img/valor_compartido/subods3.png);
-  background-size: cover;
-  background-position: top left;
-  background-repeat:  no-repeat;
-  
-}
-
-#valorcomp2 .odssubbt a.odsubtn3:hover {
-  
-  background-image: url(../img/valor_compartido/subods3hover.png);
+  background-image: url(../img/valor_compartido/ods1hover.png);
   background-size: cover;
   background-position: top left;
   background-repeat:  no-repeat;
@@ -3899,88 +3980,46 @@ select.custom-select::-ms-expand {
 
 #valorcomp2 .odssubbt a.odsubtn4 {
   margin-left: 4px;
-  background-image: url(../img/valor_compartido/subods4.png);
+  background-image: url(../img/valor_compartido/subods3hover.png);
   background-size: cover;
   background-position: top left;
   background-repeat:  no-repeat;
   
 }
 
-#valorcomp2 .odssubbt a.odsubtn4:hover {
-  
-  background-image: url(../img/valor_compartido/subods4hover.png);
-  background-size: cover;
-  background-position: top left;
-  background-repeat:  no-repeat;
-  
-}
 
 #valorcomp2 .odssubbt a.odsubtn5 {
   margin-left: 4px;
-  background-image: url(../img/valor_compartido/subods5.png);
+  background-image: url(../img/valor_compartido/ods2hover.png);
   background-size: cover;
   background-position: top left;
   background-repeat:  no-repeat;
   
 }
 
-#valorcomp2 .odssubbt a.odsubtn5:hover {
-  
-  background-image: url(../img/valor_compartido/subods5hover.png);
-  background-size: cover;
-  background-position: top left;
-  background-repeat:  no-repeat;
-  
-}
 
 #valorcomp2 .odssubbt a.odsubtn6 {
   margin-left: 5px;
-  background-image: url(../img/valor_compartido/subods6.png);
+  background-image: url(../img/valor_compartido/subods6hover.png);
   background-size:cover;
   background-position: top left;
   background-repeat:  no-repeat;
   
 }
 
-#valorcomp2 .odssubbt a.odsubtn6:hover {
-  
-  background-image: url(../img/valor_compartido/subods6hover.png);
-  background-size: cover;
-  background-position: top left;
-  background-repeat:  no-repeat;
-  
-}
 
 #valorcomp2 .odssubbt a.odsubtn7 {
-  
-  background-image: url(../img/valor_compartido/subods7.png);
-  background-size: cover;
-  background-position: top left;
-  background-repeat:  no-repeat;
-  
-}
-
-#valorcomp2 .odssubbt a.odsubtn7:hover {
   
   background-image: url(../img/valor_compartido/subods7hover.png);
   background-size: cover;
   background-position: top left;
   background-repeat:  no-repeat;
-  
 }
+
 
 #valorcomp2 .odssubbt a.odsubtn8 {
   margin-left: 4px;
   background-image: url(../img/valor_compartido/subods8.png);
-  background-size: cover;
-  background-position: top left;
-  background-repeat:  no-repeat;
-  
-}
-
-#valorcomp2 .odssubbt a.odsubtn8:hover {
-  
-  background-image: url(../img/valor_compartido/subods8hover.png);
   background-size: cover;
   background-position: top left;
   background-repeat:  no-repeat;
